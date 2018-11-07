@@ -1,0 +1,15 @@
+body {
+  background: black;
+}
+
+.mytr {
+  background-color: grey;
+}
+
+.mytd {
+  color: white;
+}
+
+.button {
+  background-color: red;
+}
