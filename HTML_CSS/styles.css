@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: white;
 }
 
 .mytr {
@@ -7,9 +7,24 @@ body {
 }
 
 .mytd {
-  color: white;
+  color: black;
 }
 
 .button {
   background-color: red;
+}
+
+.title {
+  margin: 50px;
+}
+
+.login {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: 50%;
+}
+
+.table {
+  margin: 100px;
+  width: 100px;
 }
