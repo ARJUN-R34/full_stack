@@ -1,0 +1,22 @@
+{% extends 'layouts.html' %}
+
+{% block myContent %}
+
+<table class="table">
+  <tr>
+    <td><strong>Name</strong></td>
+    <td><strong>Email ID</strong></td>
+    <td><strong>Mobile Number</strong></td>
+    <td><strong>Subject</strong></td>
+    <td><strong>Message</strong></td>
+  </tr>
+  <tr>
+    <td>{{newName}}</td>
+    <td>{{newMail}}</td>
+    <td>{{newNumber}}</td>
+    <td>{{newSubject}}</td>
+    <td>{{newMessage}}</td>
+  </tr>
+</table>
+
+{% endblock %}
