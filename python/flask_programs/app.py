@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
+from data import Students
 
 app=Flask(__name__)     #__name__ is a special character in Flask
+getStudents = Students()
 
 @app.route('/send', methods=['GET','POST'])
 def send():
@@ -24,5 +26,9 @@ def about():
 def contact():
     return render_template('contactus.html')
 
+@app.route('/students')
+def stud():
+    return render_template('studentlist.html',myStudentList=getStudents)
+    
 if(__name__=='__main__'):
     app.run(debug=True)
